@@ -32,7 +32,7 @@ public class GeoContent {
 	/**
 	 * Get Context for development branch.
 	 * Get context of the application
-	 * 
+	 *
 	 * @return
 	 * @throws MalformedURLException
 	 */
@@ -53,6 +53,12 @@ public class GeoContent {
 		return "";
 	}
 
+	/**
+	 * Get service Instances for master.
+	 * 
+	 * @param applicationName
+	 * @return
+	 */
 	@GetMapping("/instances/{applicationName}")
 	public List<ServiceInstance> getServiceInstances(@PathVariable String applicationName) {
 		return this.discoveryClient.getInstances(applicationName);
