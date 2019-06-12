@@ -29,6 +29,12 @@ public class GeoContent {
 		return new RestTemplate();
 	}
 
+	/**
+	 * Get context of the application
+	 * 
+	 * @return
+	 * @throws MalformedURLException
+	 */
 	@GetMapping("/content")
 	public String getContext() throws MalformedURLException {
 		String url = "/solution/text";
