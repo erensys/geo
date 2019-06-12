@@ -31,6 +31,7 @@ public class GeoContent {
 
 	/**
 	 * Get Context for development branch.
+	 * Get context of the application
 	 * 
 	 * @return
 	 * @throws MalformedURLException
