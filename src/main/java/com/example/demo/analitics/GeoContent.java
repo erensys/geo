@@ -31,7 +31,6 @@ public class GeoContent {
 
 	/**
 	 * Get Context for development branch.
-	 * Get context of the application
 	 *
 	 * @return
 	 * @throws MalformedURLException
@@ -54,8 +53,10 @@ public class GeoContent {
 	}
 
 	/**
+	 * Get Service instances for dev.
+	 *
 	 * Get service Instances for master.
-	 * 
+	 *
 	 * @param applicationName
 	 * @return
 	 */
