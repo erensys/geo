@@ -10,7 +10,6 @@ public class GeoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GeoApplication.class, args);
-		System.out.println("application context by dev");
 	}
 
 }
